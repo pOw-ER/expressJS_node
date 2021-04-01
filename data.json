@@ -1,0 +1,61 @@
+[{
+  "id": 1,
+  "first_name": "Cordy",
+  "last_name": "Pritty",
+  "email": "cpritty0@flavors.me",
+  "gender": "Non-binary"
+}, {
+  "id": 2,
+  "first_name": "Dorotea",
+  "last_name": "Stapylton",
+  "email": "dstapylton1@jigsy.com",
+  "gender": "Agender"
+}, {
+  "id": 3,
+  "first_name": "Clerkclaude",
+  "last_name": "Courtliff",
+  "email": "ccourtliff2@businessweek.com",
+  "gender": "Bigender"
+}, {
+  "id": 4,
+  "first_name": "Palm",
+  "last_name": "Prescott",
+  "email": "pprescott3@twitpic.com",
+  "gender": "Agender"
+}, {
+  "id": 5,
+  "first_name": "Zita",
+  "last_name": "Stockhill",
+  "email": "zstockhill4@miitbeian.gov.cn",
+  "gender": "Male"
+}, {
+  "id": 6,
+  "first_name": "Judy",
+  "last_name": "Dymick",
+  "email": "jdymick5@parallels.com",
+  "gender": "Male"
+}, {
+  "id": 7,
+  "first_name": "Monique",
+  "last_name": "Muston",
+  "email": "mmuston6@geocities.jp",
+  "gender": "Female"
+}, {
+  "id": 8,
+  "first_name": "Papageno",
+  "last_name": "Brognot",
+  "email": "pbrognot7@bloglovin.com",
+  "gender": "Genderfluid"
+}, {
+  "id": 9,
+  "first_name": "Gabriell",
+  "last_name": "Chilles",
+  "email": "gchilles8@jimdo.com",
+  "gender": "Non-binary"
+}, {
+  "id": 10,
+  "first_name": "Roxy",
+  "last_name": "Lesper",
+  "email": "rlesper9@yahoo.com",
+  "gender": "Non-binary"
+}]

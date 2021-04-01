@@ -1,0 +1,14 @@
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 30px;
+}
