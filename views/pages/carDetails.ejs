@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head.ejs')  %>
+
+<body>
+  <%- include('../partials/nav.ejs') %>
+  <h1>Car Details</h1>
+
+  <ul>
+    <li>
+      <%= `Marke : ${car[0].make}` %>
+    </li>
+    <li>
+      <%= `Model : ${car[0].model}` %>
+    </li>
+    <li>
+      <%= `Year : ${car[0].year}` %>
+    </li>
+    <li>
+      <%= `Number : ${car[0].vin}` %>
+    </li>
+  </ul>
+
+  <%- include ('../partials/footer.ejs') %>
+</body>
+
+</html>

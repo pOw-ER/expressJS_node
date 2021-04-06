@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head.ejs')  %>
+
+<body>
+  <%- include('../partials/nav.ejs') %>
+  <h1>Cars</h1>
+  <div class="grid">
+    <% carsData.forEach(car => { %>
+    <div>
+      <h3><%= car.make %></h3>
+      <h3><%= car.model %></h3>
+      <h3><%= car.year %></h3>
+      <h3><%= car.vin %></h3>
+      <a href=<%= `/cars/${car.id}`%>>More info</a>
+    </div>
+    <% }) %>
+  </div>
+
+  <%- include ('../partials/footer.ejs') %>
+</body>
+
+</html>

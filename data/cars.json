@@ -1,0 +1,61 @@
+[{
+  "id": 1,
+  "make": "Porsche",
+  "model": "914",
+  "year": 1970,
+  "vin": "JN8AZ1FY8CW247978"
+}, {
+  "id": 2,
+  "make": "Mercedes-Benz",
+  "model": "M-Class",
+  "year": 2006,
+  "vin": "1GKKRNED4FJ889853"
+}, {
+  "id": 3,
+  "make": "Chrysler",
+  "model": "Sebring",
+  "year": 1999,
+  "vin": "WBA3B9C58EF218465"
+}, {
+  "id": 4,
+  "make": "Chrysler",
+  "model": "Town & Country",
+  "year": 1998,
+  "vin": "3GYFK52219G722726"
+}, {
+  "id": 5,
+  "make": "Buick",
+  "model": "Regal",
+  "year": 1996,
+  "vin": "SCFFDCBD5AG518969"
+}, {
+  "id": 6,
+  "make": "Audi",
+  "model": "TT",
+  "year": 2002,
+  "vin": "1GT3CZBG6AF806295"
+}, {
+  "id": 7,
+  "make": "GMC",
+  "model": "Savana 3500",
+  "year": 1999,
+  "vin": "5TDBK3EH3DS274492"
+}, {
+  "id": 8,
+  "make": "Suzuki",
+  "model": "XL-7",
+  "year": 2001,
+  "vin": "1FMJU1J54AE628701"
+}, {
+  "id": 9,
+  "make": "Toyota",
+  "model": "Camry",
+  "year": 2011,
+  "vin": "1C3BC2FB8BN141087"
+}, {
+  "id": 10,
+  "make": "Subaru",
+  "model": "XT",
+  "year": 1989,
+  "vin": "WAUDL54F05N655142"
+}]

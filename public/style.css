@@ -12,3 +12,17 @@ nav ul li a {
   text-decoration: none;
   padding: 10px 30px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  gap: 30px;
+}
+.grid > div {
+  background-color: #00000020;
+}
+footer {
+  background-color: crimson;
+  color: #fff;
+}

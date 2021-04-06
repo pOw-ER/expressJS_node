@@ -2,7 +2,9 @@ const express = require('express')
 const app = express()
 const path = require('path')
 const data = require('./data.json')
+const carsData = require('./data/cars.json')
 
+app.set('view engine', 'ejs')
 app.listen(3000, () => {
   console.log('listening');
 })
@@ -15,19 +17,35 @@ app.use(express.static('public'))
 // })
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'views/index.html'))
+  res.render('pages/index', { title: "Homepage" })
 })
 
 // console.log(__dirname);
 // console.log(path.join(__dirname, 'views/index.html'));
 app.get('/about', (req, res) => {
-  res.sendFile(path.join(__dirname, 'views/about.html'))
+  res.render('pages/about', { title: "About" })
 })
 
 app.get('/courses', (req, res) => {
-  res.sendFile('./views/courses.html', { root: __dirname })
+  res.render('pages/courses', { title: "Courses" })
 })
+app.get('/products', (req, res) => {
+  res.render('pages/products', {
+    myName: 'Enes',
+    items: ['item1', 'item2', 'item3'],
+    title: "Products"
+  })
+})
+app.get('/cars', (req, res) => {
+  res.render('pages/cars', { title: "Cars", carsData })
+})
+app.get('/cars/:id', (req, res) => {
+  // console.log(carsData);
+  let car = carsData.filter(elt => elt.id == req.params.id)
+  console.log(car[0].make);
+  res.render('pages/carDetails', { title: "Car Details", car })
 
+})
 app.get('/students/api', (req, res) => {
   res.send(data)
 })
